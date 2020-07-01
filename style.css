@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    margin-top:0px;
+   
+   /* align-items:center; */
+  }
+  .title{
+    color:#90f0ce;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+  }
+  .subtitle{
+    margin-top:3px;
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: -2px;
+    font-size:60px;
+  }
+  .main-body{
+    background: linear-gradient(-90deg,aquamarine,blue);
+      
+  }
+  .main-title{
+    text-align:center;
+    margin-top:0px;
+  }
+ 
+
+
+
+
+
+
+  #start-button{
+    margin-left:15px;
+    margin-top:10px;
+    width:100px;
+    height:25px;
+    border-radius: 15px;
+    border-color: honeydew;
+    
+    
+  }
+  button:focus { outline:0 !important; }
+  #start-button:hover{
+    background-color: honeydew;
+    border-radius: 15px;
+    box-shadow: 5px 5px #7FFFD4;
+    border-color:#7FFFD4;
+    cursor: pointer;
+  }
+  #start-button:active{
+    background-color: honeydew;
+    border-radius: 15px;
+    box-shadow: 5px 5px #7FFFD4;
+    border-color:#7FFFD4;
+  }
+  
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+   background-color: rgba(127,255,212,0);
+    margin-left:40%;
+    
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tetromino {
+    background-color:yellow;
+    /* border-style: dashed;
+    border-color: black;
+    border-width: 0.5px; */
+    outline: 1px #000 solid;
+  }
+  
+  
+  #score{
+    margin-left:30px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  #score-text{
+   
+    margin-left: 20px;
+  
+    
+  }
+  #score-view{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  #lines{
+    margin-left:30px;
+    margin-top:10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .mini-grid {
+    margin-top:10px;
+    margin-left: 32px;
+    margin-right:0px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  background-color:rgb(220,220,220,0);
+  
+  }
+  .score-card{
+    margin-left: 70px;
+    width: 125px;
+    display:block;
+    height:300px;
+    background-color: rgb(220,220,220,0.5);
+    border-radius: 15px;
+    
+    /* border: 5px dashed black; */
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
